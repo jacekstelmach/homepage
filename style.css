@@ -1,0 +1,107 @@
+.resize-photo {
+    resize:  = 25%;
+}
+
+
+  
+.tlo {
+    background-image: url("\images\czarny-ksiezycowy.jpg");
+    background-color: #ffffff; 
+    
+}  
+
+.top {
+
+    
+}
+
+
+  section {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    
+     background: #420039;
+     display: block;
+     font-weight: bold;
+     border-radius: 15px;             
+     border:  3px solid #12355B;
+     margin: 15px;  
+     
+}
+  
+article {
+    padding: 10px; 
+}
+    
+header.top {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 15px;  
+    color: #D72638;
+    background-color: #FF570A;
+            display: block;
+        font-weight: bold;
+    border-radius: 15px;                  
+    margin: 15px;
+    border:  3px solid #12355B;
+        
+}
+  
+h2 {
+    color: #1460AA;
+}
+
+p {
+    color: #cccccc;
+}
+ 
+
+h3 {
+  color:#D72638;  
+}
+
+footer {
+    background: url("/images/czarny-ksiezycowy.jpg");
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    color: green;
+    background: #420039;
+    font-weight: bold;
+    display: block;
+    font-weight: bold;
+    border-radius: 15px;                  
+    margin: 15px;
+    border:  3px solid #12355B;
+
+}
+
+ul {
+    color: #D72638;
+    background-color: #FF570A;
+    margin-right: 200px;
+    border-radius:  10px; 
+}          
+
+
+.nav-fixed {
+    position: relative;
+    z-index: 99;
+}
+
+#values-js {
+    color: #ffffff;
+}
+
+.orangutan {
+    color: #D72638;
+    background-color: #FF570A;
+    margin-right: 200px;
+    border-radius:  10px; 
+    
+}
+
+article.listowe {
+    spacing: 100px;
+}
