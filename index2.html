@@ -1,11 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Strona YACA</title>
+        <link href="style.css" rel="stylesheet" type="text/css"> 
+        <script src="main.js"></script>
+    </head>
+<body class="tlo">
+    <main>
+        <nav class="nav-style">
+            <a href="index.html">Strona główna</a> 
+            <a href="nauka-html.html">Nauka</a>
+            <a href="index2.html">Git&GitHub</a> 
+        </nav>
+        <header class="top">
+            <h1>Strona o gicie i githubie</h1>
+        </header>
+
+        <section>
+            <h2>Git <img src="C:\dev\homepage\images\git-logo.png" alt="Logo gita" class="photo-logo"></h2>
+                <article>
+                    <h3>Git jako system kontroli wersji</h3>
+                    <p>Gita pobieramy ze strony <a herf="https://git-scm.com">git-scm.com</a>
+                    </p>
+                    <p>Instalujemy na lokalnie w komputerze</p>    
+                </article>
+                <article>
+                    Gitem sterujemy z konsoli, tutaj jest dowolna do wyboru w postaci np. windowsowe CMD, zaintalowany z Gitem GitBash czy jaki tam sobie wymarzymy
+                </article>
+                <article>    
+                <h3>Przykładowe polecenia gita:</h3>
+                <ul>Tworzenie użytkownika i emaila
+                    <li>git config --global user.name</li>
+                    <li>git config --global user.email/li>
+                </ul>
+                <ul>Podgląd poprawności
+                    <li>git config --get user.name</li>
+                    <li>git config --get user.email</li>
+                </ul>
+                <ul>Inicjowanie repozytorium .git
+                    <li>git config --global user.name</li>
+                    <li>git config --global user.email</li>
+                </ul>
+                <ul>Podgląd statusu
+                    <li>git status</li>
+                </ul>
+                <ul>Dodawanie plików do commitu
+                    <li>git add . (ważna spracja, jak w poleceniu z gitbasha "use git add <file>..." to include in what will be commited)</li>
+                </ul>
+                <ul>Dodawanie commitów
+                    <li>git commit -m "nazwa commitu najlepiej po angielsku"
+                        np. 
+                        git commit -m "initial commit"
+                    </li>
+                </ul>
+                <ul>Podgląd statusu
+                    <li>git status</li>
+                </ul>
+                </article>
+                <article>
+                    Podsumowując, kolejne etapy commitowania to:<br>
+                    <ul>
+                        <li>git add .</li>
+                        <li>git commit -m "commit name"</li>
+                        <li>git push [wysyła to na githuba, <a href="#section-github">o czym w następnym artykule</a></li>
+                    </ul>
+
+                </article>
+        </section>       
+       
+        <section id="section-github">
+            <h2>Github</h2>
+            <article> 
+            <h3></h3>
+            <p>Tutaj coś o znacznikach:</p>
+                <ul id="lista3">
+                    <li>znacznik B i I jako niesemantyczne</li>
+                    <li>znaczniki jako semantyczne</li>    
+                </ul>
+            
+        
+        </article>
+    </section>
+       
+       
+    </main>
     
+    <footer>
+        <h4>Strona domowa Jacek Stelmach, TM<br>
+        <a href="#top">Wróć na górę strony</a>
+        </h4>
+    </footer>    
 </body>
+
+    
 </html>

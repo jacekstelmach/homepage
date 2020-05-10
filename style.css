@@ -9,6 +9,10 @@ body {
         
 }
 
+.photo-logo {
+    height: 80px;
+}    
+
 .nav-style {
     padding-top: 10px;
     padding-left: 10px;
